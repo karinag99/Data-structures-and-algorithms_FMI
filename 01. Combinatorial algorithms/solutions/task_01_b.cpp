@@ -41,7 +41,6 @@ void getSubsetsRec(const std::vector<int> set, std::vector<bool> subset, int che
 void wrapperGetSubsetsRec(const std::vector<int> set) {
 
 	std::vector<bool> subset;
-	//subset.resize(set.size());
 
 	getSubsetsRec(set, subset);
 
