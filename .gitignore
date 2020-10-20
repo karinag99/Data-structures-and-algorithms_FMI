@@ -1,4 +1,5 @@
 *
 !*.cpp
 !.gitignore
+!/*
 pch.cpp
