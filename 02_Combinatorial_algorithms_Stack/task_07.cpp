@@ -17,9 +17,10 @@ void getCommands(const std::vector<int>& finalOrder) {
     
     std::stack<int> gutter1;
     std::stack<int> gutter2;
-    
+
+    //an additional variables - to track if the next element is in gutter1 or gutter2 
     bool currentElemIsInGutter2 = false;
-    bool nextElementIsInGutter2 = false;
+    bool nextElemIsInGutter2 = false;
     getInitialOrder(gutter1, finalOrder.size());
 
     for(size_t i = 0; i < finalOrder.size() - 1; i++) {
@@ -27,8 +28,9 @@ void getCommands(const std::vector<int>& finalOrder) {
         if(currentElemIsInGutter2) {
             int num = gutter2.top();
 
+            //Tracking the next element
             if(num == finalOrder[i+1])
-                nextElementIsInGutter2 = false;
+                nextElemIsInGutter2 = false;
 
             while(num != finalOrder[i]) {
                 gutter1.push(num);
@@ -36,8 +38,10 @@ void getCommands(const std::vector<int>& finalOrder) {
                 std::cout << '3' << ' ';
 
                 num = gutter2.top();
+
+                //Tracking the next element
                 if(num == finalOrder[i+1])
-                nextElementIsInGutter2 = false;
+                nextElemIsInGutter2 = false;
             }
 
             gutter2.pop();
@@ -47,7 +51,7 @@ void getCommands(const std::vector<int>& finalOrder) {
              int num = gutter1.top();
 
             if(num == finalOrder[i+1])
-               nextElementIsInGutter2 = true;
+               nextElemIsInGutter2 = true;
 
             while(num != finalOrder[i]) {
                 gutter2.push(num);
@@ -55,8 +59,9 @@ void getCommands(const std::vector<int>& finalOrder) {
                 std::cout << '1' << ' ';
 
                 num = gutter1.top();
+
                 if(num == finalOrder[i+1])
-                    nextElementIsInGutter2 = true;
+                    nextElemIsInGutter2 = true;
             }
 
             gutter2.push(num);
@@ -67,10 +72,11 @@ void getCommands(const std::vector<int>& finalOrder) {
             std::cout << '2' << ' ';
         }
 
-        currentElemIsInGutter2 = nextElementIsInGutter2;
+        currentElemIsInGutter2 = nextElemIsInGutter2;
 
     }
 
+    // Taking care of the last element
     if(currentElemIsInGutter2) {
         gutter2.pop();
         std::cout << '2' << ' ';
@@ -81,7 +87,6 @@ void getCommands(const std::vector<int>& finalOrder) {
 
         gutter2.pop();
         std::cout << '2' << ' ';
-
     }
 }
 
