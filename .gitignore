@@ -1,1 +1,5 @@
-
+*
+!*/
+!*.cpp
+!*.md
+!.gitignore
