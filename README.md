@@ -17,3 +17,4 @@ https://github.com/karinag99/Data_Structures_and_algorithms_FMI/tree/main/02_Com
 &nbsp;&nbsp;&nbsp;&nbsp; - [решения](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/tree/main/04_Queue/solutions)
 -  5.&nbsp;Свързан списък.   
 &nbsp;&nbsp;&nbsp;&nbsp; - [задачи](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/blob/main/05_LinkedLists/Tasks.md)  
+&nbsp;&nbsp;&nbsp;&nbsp; - [решения](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/tree/main/05_LinkedLists/Solutions)
