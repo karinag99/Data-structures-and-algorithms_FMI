@@ -27,7 +27,7 @@
 
 #### Забележка : Използвайте следната структура: 
 
-```
+```c++
 template <typename T>
 struct Node {
   T data;
