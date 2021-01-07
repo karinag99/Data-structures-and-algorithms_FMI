@@ -21,3 +21,12 @@ https://github.com/karinag99/Data_Structures_and_algorithms_FMI/tree/main/02_Com
 -  6.&nbsp;Свързан списък и итератори.   
 &nbsp;&nbsp;&nbsp;&nbsp; - [задачи](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/blob/main/06_LinkedLists_Iterators/README.md)  
 &nbsp;&nbsp;&nbsp;&nbsp; - решения
+-  7.&nbsp;Двоични дървета.   
+&nbsp;&nbsp;&nbsp;&nbsp; - [задачи](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/blob/main/07_Tree/Tasks.md)  
+&nbsp;&nbsp;&nbsp;&nbsp; - [решения](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/tree/main/07_Tree/solutions)
+-  8.&nbsp;Дървета.   
+&nbsp;&nbsp;&nbsp;&nbsp; - [задачи](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/blob/main/08_Tree/Tasks.md)  
+&nbsp;&nbsp;&nbsp;&nbsp; - [решения](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/tree/main/08_Tree/solutions)
+-  9.&nbsp;Дървета.   
+&nbsp;&nbsp;&nbsp;&nbsp; - [задачи](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/blob/main/09_Tree/Tasks.md)  
+&nbsp;&nbsp;&nbsp;&nbsp; - [решения](https://github.com/karinag99/Data_Structures_and_algorithms_FMI/tree/main/09_Tree/solutions)
